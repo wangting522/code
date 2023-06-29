@@ -1,0 +1,20 @@
+Start
+  Declaration
+    num userinput
+    num area
+    Cylinder cylinder
+  Output"Enter Height"
+  Input userInput
+  cylinder.setHeight(userInput)
+  Output"Enter Radius"
+  Input userInput
+  cylinder.setRadius(userInput)
+  area=cylinder.caculateArea()
+  Output"Area is"+area
+Stop
+
+calculateArea()
+  Declaration
+    Area:double
+  Area= 2* Math.PI + radius * height +2 *Math.PI* Math.pow(radius,2)
+return area
