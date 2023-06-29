@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>70</x>
+      <y>20</y>
+      <w>500</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>Car
+--
+-vehicle identification number:String
+-mileage:double
+-invoice price:double
+--
++Car()
++Car(vehicle identification number:String, mileage:double, invoice price:double)
++getVehicle identification number():String
++setVehicle identification number(vehicle identification number:String):void
++getMileage():double
++setMileage(mileage:int):void
++getInvoice price():double
++setInvoice price(invoice price:double):void
++toString(): String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>200</x>
+      <y>310</y>
+      <w>190</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Program
+--
++main(args:String[]):void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>200</x>
+      <y>400</y>
+      <w>240</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>UML Class Diagram by Ting Wang</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
